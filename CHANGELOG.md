@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [Unreleased] - yyyy-mm-dd
+## [1.0.0] - 2026-04-23
 
 - Feat(logger): extract runtime pino logger from starter-template with the same public exports/signatures (`pinoGenericLogger`, `logger`, `logInternalError`, `logFatalError`, `logMasterOnly`, `loggerMasterOnly`, purge helpers).
 - Feat(service): add singleton-friendly instantiation via `RuntimePinoLoggerService.singleton(...)` and export mapping via `.asExports()` for drop-in `logger.service.ts` usage.
