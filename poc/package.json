@@ -1,0 +1,20 @@
+{
+  "name": "pino-runtime-logger-poc",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "nodemon -L --watch src --ext ts --exec \"npm run build && node dist/index.js\"",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@naskot/node-pino-runtime-logger": "file:..",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.6.0",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.3"
+  }
+}
