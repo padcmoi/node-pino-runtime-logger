@@ -1,6 +1,6 @@
 {
   "name": "@naskot/node-pino-runtime-logger",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Agnostic runtime logger service built on pino with optional PM2-aware behavior.",
   "repository": {
     "type": "git",
